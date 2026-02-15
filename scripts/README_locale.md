@@ -1,6 +1,6 @@
 # Working with locale files (gettext CLI)
 
-Use the official **GNU gettext** tools instead of custom scripts.
+Use the official **GNU gettext** tools.
 
 ## Prerequisites
 
@@ -51,7 +51,3 @@ mv "$LOCALE/ar_new.po" "$LOCALE/ar.po"
 ```
 
 Same idea works for `erpnext` or `hrms` by changing the path (e.g. `.../v16/erpnext/erpnext/locale`).
-
----
-
-**Note:** The custom `scripts/extract_untranslated.py` is no longer needed if you use the gettext CLI above. You can keep it as a fallback when gettext is not installed.
